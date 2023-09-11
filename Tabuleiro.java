@@ -38,7 +38,7 @@ public class Tabuleiro{
     protected boolean porta_norte,porta_sul,porta_leste,porta_oeste;
 
 
-    public void gerarFonteInfecção(){// gera a posição da fonte de infecção de forma aleatoria
+    public void gerarFonteInfeccao(){// gera a posição da fonte de infecção de forma aleatoria
         Random aleatorio = new Random();
         do{
             this.linha_virus= aleatorio.nextInt(5);
