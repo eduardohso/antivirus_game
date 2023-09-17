@@ -9,7 +9,7 @@ public class Principal {
         Tabuleiro tabuleiro = new Tabuleiro();
         String playerJogando;
         int op = 0;
-        tabuleiro.gerarFonteInfecção();
+        tabuleiro.gerarFonteInfeccao();
 
         Setor setor = new Setor(){
             @Override
